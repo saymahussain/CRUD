@@ -1,3 +1,12 @@
+body {
+  background-image: url('../public/picaso.jpeg');
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+
+
+}
+
 .App {
   text-align: center;
 }
@@ -24,6 +33,92 @@
   color: white;
 }
 
+.Login {
+  border: 1px solid rgba(255, 255, 255, 0.651);
+  position: relative;
+  top: 100px;
+ background: rgba(255, 255, 255, 0.472);
+ backdrop-filter: blur(15px) saturate(180%);
+  width: 40%;
+  margin-top: 100px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 5px 5px 30px 15px #950170ba;
+}
+
+
+.signup {
+  border: 1px solid rgba(255, 255, 255, 0.651);
+  position: relative;
+  margin-top: 100px;
+  height: 100%;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.472);
+  backdrop-filter: blur(15px) saturate(180%);
+  text-align: center;
+  padding:  15px;
+  box-shadow: 5px 5px 30px 15px #950170ba;
+  border-radius: 30px;
+
+}
+
+.sign {
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.lgn{
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.checkbox{
+ position: relative;
+ left: 200px;
+ top: 5px;
+}
+
+.Thankyou{
+  position: relative;
+  top: 100px;
+}
+
+.Table{
+  background-color: rgb(252, 241, 249);
+  border: 1px solid;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px 15px #950170ba;
+}
+
+
+label{
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 10px;
+  border-width: 0.5px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 10px 2px #022184ba;
+
+}
+
+.button {
+  width: 30%;
+ 
+
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +127,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
